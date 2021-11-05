@@ -18,8 +18,9 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
 	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/responsive.bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
-
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
@@ -316,7 +317,8 @@
 		</div>
 	</div>
 	<div class="mobile-menu-overlay"></div>
-
+	
+	
 	<div class="main-container">
 		<div class="pd-ltr-20 xs-pd-20-10">
 			<div class="min-height-200px">
@@ -324,46 +326,51 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>Form Data Mata Pelajaran</h4>
+								<h4>matematika</h4>
 							</div>
+							
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Form Data Mata Pelajaran</li>
+									<li class="breadcrumb-item"><a href="index.html">E-Learning</a></li>
+									<li class="breadcrumb-item active" aria-current="page">matematika</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
-				<!-- Default Basic Forms Start -->
-				<div class="pd-20 card-box mb-30">
-					<div class="clearfix">
-						<div class="pull-left">
-							<h4 class="text-blue h4">Form Mata Pelajaran</h4>
-							<p class="mb-30">Isilah data tersebut dengan benar !</p>
-						</div>
-					</div>
-					<form>
-						<div class="dropdown-divider"></div>
-						<p><strong>Mata Pelajaran</strong></p>
-						<div class="form-group">
-							<label>Nama Mata Pelajaran</label>
-							<input class="form-control" type="text" placeholder="Masukkan Mata Pelajaran">
-						</div>
-						<div class="clearfix">
-							<div class="pull-right">
-								<a href="#horizontal-basic-form1" class="btn btn-primary btn-sm scroll-click" rel=""  data-toggle="collapse" role="button">Simpan</a>
-							</div>
-						</div>
-					</form>
-					
-					
-							</code></pre>
-						</div>
+				<div class="container pd-0">
+					<div class="timeline mb-30">
+						<ul>
+							<li>
+								<div class="timeline-date">
+									Tugas
+								</div>
+								<div class="timeline-desc card-box">
+									<div class="pd-30">
+										<h4 class="mb-10 h4">Tugas Minggu ke-1</h4>
+										<p>Silahkan dibaca terlebih dahulu Materinya</p>
+										<button type="button" class="btn btn-primary btn-lg btn-block"><i class="icon-copy ion-chevron-right"></i>klik</button>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="timeline-date">
+									Materi
+								</div>
+								<div class="timeline-desc card-box">
+									<div class="pd-20">
+										<h4 class="mb-10 h4">Materi Minggu ke-1</h4>
+										<blockquote class="blockquote mb-0">
+											<p>Silahkan didownload</p>
+											<button type="button" class="btn btn-primary btn-lg btn-block"><i class="icon-copy ion-chevron-right"></i>klik</button>
+										</blockquote>
+									</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-				<!-- Input Validation End -->
-
 			</div>
 			<div class="footer-wrap pd-20 mb-20 card-box">
 				Learning Management System By  Developer
@@ -375,5 +382,18 @@
 	<script src="vendors/scripts/script.min.js"></script>
 	<script src="vendors/scripts/process.js"></script>
 	<script src="vendors/scripts/layout-settings.js"></script>
-</body>
+	<script src="src/plugins/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="src/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
+	<script src="src/plugins/datatables/js/dataTables.responsive.min.js"></script>
+	<script src="src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
+	<!-- buttons for Export datatable -->
+	<script src="src/plugins/datatables/js/dataTables.buttons.min.js"></script>
+	<script src="src/plugins/datatables/js/buttons.bootstrap4.min.js"></script>
+	<script src="src/plugins/datatables/js/buttons.print.min.js"></script>
+	<script src="src/plugins/datatables/js/buttons.html5.min.js"></script>
+	<script src="src/plugins/datatables/js/buttons.flash.min.js"></script>
+	<script src="src/plugins/datatables/js/pdfmake.min.js"></script>
+	<script src="src/plugins/datatables/js/vfs_fonts.js"></script>
+	<!-- Datatable Setting js -->
+	<script src="vendors/scripts/datatable-setting.js"></script></body>
 </html>
