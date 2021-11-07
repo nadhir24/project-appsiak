@@ -21,6 +21,12 @@
 	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/dataTables.bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/responsive.bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
+
+	<style>
+		.page-link {
+			margin: 2px;
+		}
+	</style>
  
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
@@ -365,20 +371,33 @@
 					<div class="col-lg-3 col-md-12 col-sm-12 mb-30">
 						<div class="pd-20 card-box">
 							<h5 class="h4 text-blue mb-20">Navigasi</h5>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<div class="btn-group mb-15">
-									<button type="button" class="btn btn-success">1</button>
-									<button type="button" class="btn btn-light">2</button>
-									<button type="button" class="btn btn-light">3</button>
-									<button type="button" class="btn btn-light">4</button>
-									<button type="button" class="btn btn-light">5</button>
-									<button type="button" class="btn btn-light">6</button>
-									<button type="button" class="btn btn-light">7</button>
-									<button type="button" class="btn btn-light">8</button>
-									<button type="button" class="btn btn-light">9</button>
-									<button type="button" class="btn btn-light">10</button>
-								</div>
-							</div>
+							<nav aria-label="...">
+								<ul class="pagination flex-wrap">
+								  <li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">Previous</a>
+								  </li>
+								  <li class="page-item"><a class="page-link" href="#">1</a></li>
+								  <li class="page-item active">
+									<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+								  </li>
+								  <li class="page-item"><a class="page-link" href="#">3</a></li>
+								  <br>
+								  <li class="page-item"><a class="page-link" href="#">4</a></li>
+								  <br>
+								  <li class="page-item"><a class="page-link" href="#">5</a></li>
+								  <li class="page-item"><a class="page-link" href="#">6</a></li>
+								  <li class="page-item"><a class="page-link" href="#">7</a></li>
+								  <li class="page-item"><a class="page-link" href="#">8</a></li>
+								  <li class="page-item"><a class="page-link" href="#">9</a></li>
+								  <li class="page-item"><a class="page-link" href="#">10</a></li>
+								  <li class="page-item"><a class="page-link" href="#">11</a></li>
+								  <li class="page-item"><a class="page-link" href="#">12</a></li>
+								  <li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								  </li>
+								  
+								</ul>
+							  </nav>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-3 col-sm-12 mb-30">
